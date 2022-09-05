@@ -29,3 +29,11 @@ Or **Checkout the CabZoy immediately** with **[CabZoy Mini](https://demo.fabithu
     - VSCode: **1.70.2 or above**
 - Languages:
     - Java: **11.0.16 or above**
+
+:::tip
+hello friends,
+Have you missed something?
+
+Please check the Documentation daily,
+We update the documentation constantly, as well as video tutorials on "how to use it well".
+:::
