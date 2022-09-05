@@ -1,0 +1,43 @@
+---
+sidebar_position: 2
+---
+
+# Configuration
+
+## The Environment File
+
+### Change the Project Name
+Change `CabZoy Taxi` to `Your project name` find on `line no. 32` like this.
+
+```dotenv title="/.env"
+app.name = "CabZoy Taxi"
+```
+
+### Change the Base URL
+Change `https://fabithub.dev/projects/mini` to `Your project url` find on `line no. 35` like this.
+
+```dotenv title="/.env"
+app.baseURL = https://fabithub.dev/projects/mini
+```
+
+### Change the Database Details
+- Change `rise_taxi_db` to `your database name` find on `line no. 64` like this.
+- Change `root` to `your database username` find on `line no. 65` like this.
+- Change `root` to `your database password` find on `line no. 66` like this.
+
+```dotenv title="/.env" {2-4}
+database.default.hostname = localhost
+database.default.database = rise_taxi_db
+database.default.username = root
+database.default.password = root
+database.default.DBDriver = MySQLi
+database.default.DBPrefix = fab_
+database.default.port = 3306
+```
+
+### Update FCM Server Key
+Update `Your Firebase Cloud Messaging Server Key` find on `line no. 24` like this.
+
+```dotenv title="/.env"
+FCM_SERVER_KEY =
+```

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Manage Docs Versions
 
-Docusaurus can manage multiple versions of your docs.
+CabZoy can manage multiple versions of your docs.
 
 ## Create a docs version
 
@@ -34,7 +34,7 @@ module.exports = {
       items: [
         // highlight-start
         {
-          type: 'docsVersionDropdown',
+          type: "docsVersionDropdown",
         },
         // highlight-end
       ],

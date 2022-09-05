@@ -17,26 +17,26 @@ Create a Markdown file at `docs/hello.md`:
 ```md title="docs/hello.md"
 # Hello
 
-This is my **first Docusaurus document**!
+This is my **first CabZoy document**!
 ```
 
 A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
 
 ## Configure the Sidebar
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+CabZoy automatically **creates a sidebar** from the `docs` folder.
 
 Add metadata to customize the sidebar label and position:
 
 ```md title="docs/hello.md" {1-4}
 ---
-sidebar_label: 'Hi!'
+sidebar_label: "Hi!"
 sidebar_position: 3
 ---
 
 # Hello
 
-This is my **first Docusaurus document**!
+This is my **first CabZoy document**!
 ```
 
 It is also possible to create your sidebar explicitly in `sidebars.js`:
@@ -45,10 +45,10 @@ It is also possible to create your sidebar explicitly in `sidebars.js`:
 module.exports = {
   tutorialSidebar: [
     {
-      type: 'category',
-      label: 'Tutorial',
+      type: "category",
+      label: "Tutorial",
       // highlight-next-line
-      items: ['hello'],
+      items: ["hello"],
     },
   ],
 };
