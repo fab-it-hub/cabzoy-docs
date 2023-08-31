@@ -1,9 +1,16 @@
 {
-    "cSpell.words": [
-        "apos",
-        "Azul",
-        "choco",
-        "HAXM",
-        "wdyr"
-    ]
+  "cSpell.words": [
+    "apos",
+    "Azul",
+    "choco",
+    "clsx",
+    "HAXM",
+    "horiz",
+    "wdyr"
+  ],
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }
