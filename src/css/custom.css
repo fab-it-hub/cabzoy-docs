@@ -5,28 +5,30 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Solway:wght@500&display=swap");
+
 :root {
-  --ifm-color-primary: #8b4dff;
-  --ifm-color-primary-dark: #752cff;
-  --ifm-color-primary-darker: #6b1bff;
-  --ifm-color-primary-darkest: #5100e8;
-  --ifm-color-primary-light: #a16eff;
-  --ifm-color-primary-lighter: #ab7fff;
-  --ifm-color-primary-lightest: #ccb1ff;
-  --ifm-background-color: #f0f0ff;
+  --ifm-color-primary: #6224d6;
+  --ifm-color-primary-dark: #5820c1;
+  --ifm-color-primary-darker: #531fb6;
+  --ifm-color-primary-darkest: #451996;
+  --ifm-color-primary-light: #7036dd;
+  --ifm-color-primary-lighter: #7841df;
+  --ifm-color-primary-lightest: #8250e1;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: "Poppins", sans-serif;
+  --ifm-font-family-monospace: "Solway", serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #6458ff;
-  --ifm-color-primary-dark: #4436ff;
-  --ifm-color-primary-darker: #3425ff;
-  --ifm-color-primary-darkest: #1100f0;
-  --ifm-color-primary-light: #847aff;
-  --ifm-color-primary-lighter: #948bff;
-  --ifm-color-primary-lightest: #c4bfff;
-  --ifm-background-color: #22232a;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #fc5cff;
+  --ifm-color-primary-dark: #fb39ff;
+  --ifm-color-primary-darker: #fb28ff;
+  --ifm-color-primary-darkest: #ee00f3;
+  --ifm-color-primary-light: #fd7fff;
+  --ifm-color-primary-lighter: #fd90ff;
+  --ifm-color-primary-lightest: #fec4ff;
 }

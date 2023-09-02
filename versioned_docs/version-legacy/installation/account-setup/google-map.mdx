@@ -1,0 +1,32 @@
+---
+sidebar_position: 1
+---
+
+# Google Map Account
+
+## APIs and billing
+Some Google APIs charge for usage, and you need to enable billing before you can start using these APIs. Enabling billing for the APIs that your projects use also has other advantages:
+
+- Some APIs allow free usage up to a courtesy usage limit, and in some cases this free limit is increased when you enable billing.
+- For some APIs, more services are available after you enable billing. For example, when you enable billing for the Google Cloud Platform [BigQuery APIs](https://developers.google.com/bigquery/sign-up), you can create your own tables; if you do not enable billing, you're limited to existing datasets.
+
+Billing is enabled at the project level, not the API level. If you enable billing for a project, then every billable API in that project is billed, based on the project's usage. All usage in a project is billed using the payment method that you specify, and you can change to a different method at any time. You cannot selectively enable billing for some APIs but not others; when you enable billing for a project, it applies to all the APIs that you used within that project, even if the API is currently disabled.
+
+
+You are billed only for usage of billable APIs. For complete billing and usage rules for Google Cloud Platform, see [Google Cloud Platform Pricing Details](https://developers.google.com/cloud/pricing). For other Google API billing details, refer to the documentation for that API.
+
+
+To enable billing for your project:
+
+1. Go to the [API Console](https://console.developers.google.com/).
+2. From the projects list, select a project or create a new one.
+3. Open the console left side menu and select **Billing**.
+4. Click **Enable billing**. (If billing is already enabled then this option isn't available.)
+5. If you don't have a billing account, create one.
+6. Select your location, fill out the form, and click **Submit and enable billing**.
+7. After you enable billing, any requests to billable APIs beyond their free courtesy usage limits are billed, subject to the billing terms of each API.
+
+For more information about billing, see [Create, modify, or close your billing account](https://support.google.com/googleapi/answer/6288653).
+
+For information about enabling APIs, see [Enable and disable APIs](https://support.google.com/googleapi/answer/6158841).
+

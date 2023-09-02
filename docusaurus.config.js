@@ -33,6 +33,16 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          lastVersion: "current",
+          versions: {
+            current: {
+              label: "Latest (v3.0.x)",
+            },
+            legacy: {
+              label: "v2.0 or Older",
+              path: "legacy",
+            },
+          },
           sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
@@ -48,6 +58,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: "CabZoy Docs",
         items: [
@@ -63,7 +78,11 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "docsVersionDropdown",
+            position: "right",
+            dropdownActiveClassDisabled: true,
+          },
           {
             href: "https://fabithub.com",
             label: "Fab IT Hub",
@@ -100,28 +119,12 @@ const config = {
               },
             ],
           },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} CabZoy Docs, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      algolia: {
-        appId: "GJIJS5P8C1",
-        apiKey: "3f770b340e02b3cdc5dde9ed165d30b0",
-        indexName: "docs_cabzoy",
-        contextualSearch: true,
-        searchPagePath: "search",
       },
     }),
 };
