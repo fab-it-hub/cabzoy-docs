@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CabZoy Docs, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CabZoy Pro | Fab IT Hub.`,
       },
       prism: {
         theme: lightCodeTheme,
